@@ -5,9 +5,8 @@ public class UserDTO {
 	private String firstName;
 	private String lastName;
 	private int age;
-	
 	private String city;
-	
+
 	public String getCity() {
 		return city;
 	}
@@ -47,13 +46,12 @@ public class UserDTO {
 		return age;
 	}
 
-	@Override
-	public String toString() {
-		return "User [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + "]";
-	}
-
 	public void setAge(int age) {
 		this.age = age;
 	}
 
+	@Override
+	public String toString() {
+		return "User [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + "]";
+	}
 }
